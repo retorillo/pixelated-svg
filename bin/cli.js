@@ -1,4 +1,4 @@
-#!/user/bin/env node
+#!/usr/bin/env node
 
 const fromPng = require('../').fromPng;
 const gnuopt = require('gnu-option');
