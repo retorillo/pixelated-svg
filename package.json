@@ -1,0 +1,43 @@
+{
+  "name": "pixelated-svg",
+  "version": "1.0.0",
+  "description": "Create SVG vector image from raster image with keeping pixeleated visual.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly"
+  },
+  "bin": {
+    "pixelated-svg": "bin/cli.js"
+  },
+  "author": "Retorillo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retorillo/pixelated-svg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/retorillo/pixelated-svg/issues"
+  },
+  "homepage": "https://github.com/retorillo/pixeleated-svg#readme",
+  "keywords": [
+    "converter",
+    "image",
+    "pixel",
+    "raster",
+    "svg",
+    "vector"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "gnu-option": "^1.0.1",
+    "pngjs": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
